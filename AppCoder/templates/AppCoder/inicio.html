@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{%static 'AppCoder/css/bootstrapp.min.css'%}" rel="stylesheet"/>
+    <title>Inicio|AppCoder</title>
+</head>
+<body>
+    <!-- header -->
+        <nav class="navbar navbar-expand-lg navbar-default fixed-top border-3 border-top border-primary navbar-dark">
+          <!-- navigation start -->
+          <div class="container">
+  
+              <a class="navbar-brand @@brandLogo" href="https://codescandy.com/coach/bootstrap-5/index.html"><img src="./logo.svg" alt=""></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="icon-bar top-bar mt-0"></span>
+                  <span class="icon-bar middle-bar"></span>
+                  <span class="icon-bar bottom-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-default">
+                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-times"></i>
+                  </button>
+                  <ul class="navbar-nav ms-auto me-lg-3 ">
+                      <li class="nav-item dropdown disabled">
+                          <a class="nav-link d-lg-none" href="https://codescandy.com/coach/bootstrap-5/#">
+                              Menu
+                          </a>
+                      </li>
+                      <li class="nav-item dropdown ">
+                          <a class="nav-link dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" id="menu-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
+                              Homepages
+                          </a>
+                          <ul class="dropdown-menu  dropdown-menu-arrow " aria-labelledby="menu-1">
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/yoga/index.html">
+                                      <h4 class="h5 mb-1">Yoga<span class="badge bg-success ms-2 py-1">New</span></h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Yoga for good health
+                                      </p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/pages/fitness-coach.html">
+                                      <h4 class="h5 mb-1">Fitness</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Fitness landing page
+                                      </p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/index.html">
+                                      <h4 class="h5">Coach</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Motivational Speaker
+                                      </p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item " href="https://codescandy.com/coach/bootstrap-5/pages/business-coach.html">
+                                      <h4 class="h5">Business Coach</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Consulting Business Coach
+                                      </p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item " href="https://codescandy.com/coach/bootstrap-5/pages/life-coach.html">
+                                      <h4 class="h5">Life Coach</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          LifeCoach layout design.
+                                      </p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item " href="https://codescandy.com/coach/bootstrap-5/pages/ceo-coach.html">
+                                      <h4 class="h5">CEO Coaching</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Excellent in CEO Coaching
+                                      </p>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown ">
+                          <a class="nav-link dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" id="menu-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
+                              Pages
+                          </a>
+                          <ul class="dropdown-menu   dropdown-menu-xl-start  dropdown-menu-arrow " aria-labelledby="menu-2">
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <div class="d-flex align-items-center">
+                                          <div class="me-3 icon-shape icon-lg rounded-circle bg-light">
+                                              <i class="bi bi-stack font-24"></i>
+                                          </div>
+                                          <div>
+                                              <h4 class="h5">Program</h4>
+                                              <p class="text-muted mb-0 font-12">
+                                                  Program cards design.
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/program-grid.html">
+                                              Grid</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/program-list.html">
+                                              List </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html">
+                                              Single</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <div class="d-flex align-items-center">
+                                          <div class="me-3 icon-shape icon-lg rounded-circle bg-light">
+                                              <i class="bi bi-calendar font-24"></i>
+                                          </div>
+                                          <div>
+                                              <h4 class="h5">Events</h4>
+                                              <p class="text-muted mb-0 font-12">
+                                                  Create your own event page.
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/events.html">
+                                              List</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/event-single.html">
+                                              Single</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <div class="d-flex align-items-center">
+                                          <div class="me-3 icon-shape icon-lg rounded-circle bg-light">
+                                              <i class="bi bi-mic-fill font-24"></i>
+                                          </div>
+                                          <div>
+                                              <h4 class="h5">Podcast</h4>
+                                              <p class="text-muted mb-0 font-12">
+                                                  Promote your podcast easy.
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/podcast.html">
+                                              List</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/podcast-thumbnail.html">
+                                              Thumbnail</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/podcast-single.html">
+                                              Single</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <div class="d-flex align-items-center">
+                                          <div class="me-3 icon-shape icon-lg rounded-circle bg-light">
+                                              <i class="bi bi-file-earmark-richtext-fill font-24"></i>
+                                          </div>
+                                          <div>
+                                              <h4 class="h5">Courses</h4>
+                                              <p class="text-muted mb-0 font-12">
+                                                  Create online learning courses.
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/course-thumbnail.html">
+                                              Grid</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/course-single.html">
+                                              Single</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <div class="d-flex align-items-center">
+                                          <div class="me-3 icon-shape icon-lg rounded-circle bg-light">
+                                              <i class="bi bi-gear-fill font-24"></i>
+                                          </div>
+                                          <div>
+                                              <h4 class="h5">Utilities</h4>
+                                              <p class="text-muted mb-0 font-12">
+                                                  Additional Pages
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/pricing.html">
+                                              Pricing </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/about-me.html">
+                                              About me</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/team-page.html">
+                                              Team</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/contact.html">
+                                              Contact</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/error-page.html">
+                                              Error</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/terms-and-condition.html">
+                                              Terms &amp; Condition</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" id="menu-3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Blog
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-arrow  dropdown-menu-xl-start " aria-labelledby="menu-3">
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/blog.html">
+                                      Blog
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/blog-author.html">
+                                      Blog Author
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/blog-category.html">
+                                      Blog Category
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/blog-classic.html">
+                                      Blog Classic
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/blog-single.html">
+                                      Blog Single
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" id="menu-4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Resources
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-md dropdown-menu-arrow  dropdown-menu-xl-start " aria-labelledby="menu-4">
+                              <li class="dropdown-submenu">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <h4 class="h5 ">Case Study</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Case Study Element Design
+                                      </p>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/case-studies.html">
+                                              Case Study</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/case-study-single.html">
+                                              Single</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      <h4 class="h5">Help Center </h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Beautiful help center design.
+                                      </p>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/help-center.html">
+                                              Help</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/help-center-category.html">
+                                              Category</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/help-center-article.html">
+                                              Category Article</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/help-center-profile-member.html">
+                                              Help Center Profile</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                  <a class="dropdown-list-group-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <h4 class="h5">Webinar</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Webinar Landing Page Design
+                                      </p>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/coach-webinar.html">
+                                              Webinar List </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/coach-webinar-single.html">
+                                              Webinar Single </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/coach-webinar-booking.html">
+                                              Webinar Booking </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/pages/book-download-page.html">
+                                      <h4 class="h5">Download Book</h4>
+                                      <p class="text-muted mb-0 font-12">
+                                          Download the book for guide.
+                                      </p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/pages/stories.html">
+                                      <div>
+                                          <h4 class="h5">Success Stories</h4>
+                                          <p class="text-muted mb-0 font-12">
+                                              See what our clients say &amp; stories.
+                                          </p>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/pages/booking-page.html">
+                                      <div>
+                                          <h4 class="h5">Free Session Booking</h4>
+                                          <p class="text-muted mb-0 font-12">
+                                              Your 60-minute Free Coaching Session.
+                                          </p>
+                                      </div>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" id="menu-5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Account
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-arrow  dropdown-menu-xl-start " aria-labelledby="menu-5">
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      Sign In
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/signin-cover.html">
+                                              Side Cover </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/signin.html">
+                                              Basic</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      Sign Up
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/signup-cover.html">
+                                              Side Cover </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/signup.html">
+                                              Basic</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/verify-code.html">
+                                      Verify Code
+                                  </a>
+                              </li>
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      Password Reset
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/password-reset-cover.html">
+                                              Side Cover</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/password-reset.html">
+                                              Basic</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu ">
+                                  <a class="dropdown-item dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#">
+                                      Setting
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-profile.html">
+                                              Profile</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-subscription.html">
+                                              Subscription</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-security.html">
+                                              Security</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-notifications.html">
+                                              Notifications</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-user.html">
+                                              Users</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-payment-plan.html">
+                                              Payment Plan</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/dashboard-payment-history.html">
+                                              Payment History</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="https://codescandy.com/coach/bootstrap-5/#" id="menu-6" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Shop
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-arrow  dropdown-menu-xl-start " aria-labelledby="menu-6">
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/shop.html">
+                                      Product
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/shop-single.html">
+                                      Product Single
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/shop-cart.html">
+                                      Cart
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/shop-checkout.html">
+                                      Checkout
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/shop-empty-cart.html">
+                                      Empty Cart
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="https://codescandy.com/coach/bootstrap-5/pages/shop-order-completed.html">
+                                      Order Completed
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown dropstart">
+                          <a class="nav-link " href="https://codescandy.com/coach/bootstrap-5/#" id="menu-7" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Docs
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-arrow  dropdown-menu-md  " aria-labelledby="menu-7">
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/docs/index.html">
+                                      <div class="d-flex align-items-center">
+                                          <span class="me-3">
+                                              <i class="bi bi-file-text-fill font-24"></i>
+                                          </span>
+                                          <div>
+                                              <h5 class="mb-0">Documentation</h5>
+                                              <span class="font-12 text-muted">Customizing and Create</span>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/docs/snippet-overview.html">
+                                      <div class="d-flex align-items-center">
+                                          <span class="me-3"> <i class="bi bi-layers-fill font-24"></i>
+                                          </span>
+                                          <div>
+                                              <h5 class="mb-0">Components</h5>
+                                              <span class="font-12 text-muted">Ready to use list of components</span>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/bootstrap-5/docs/changelog.html">
+                                      <div class="d-flex align-items-center">
+                                          <span class="me-3">
+                                              <i class="bi bi-file-earmark-text-fill font-24"></i>
+                                          </span>
+                                          <div>
+                                              <h5 class=" mb-0 ">Changelog <span class="text-primary font-12 ml-1 ">v.2.1.0</span></h5>
+                                              <span class="font-12 text-muted ">All notable changes in track</span>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-list-group-item" href="https://codescandy.com/coach/rtl/index.html">
+                                      <div class="d-flex align-items-center">
+                                          <span class="me-3">
+                                              <i class="bi bi-toggle-on font-24"></i>
+                                          </span>
+                                          <div>
+                                              <h5 class=" mb-0 ">RTL Demo</h5>
+                                              <span class="font-12 text-muted ">RTL Pages</span>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+                  <div class="header-btn ">
+                      <a href="https://bit.ly/38DGpi8" class="btn btn-primary btn-sm ">Buy Now</a>
+                  </div>
+              </div>
+  
+          </div>
+      </nav>
+    <!-- hero section -->
+    <div style="background: url(assets/images/hero-slide.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      <div class="container">
+        <div class="row">
+          <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
+            <div class="pt-17 pb-13 pt-lg-19 pb-lg-19 text-center text-light">
+              <h1 class="display-3 text-white mb-3 lh-1">
+                Become the hero of your own story
+              </h1>
+              <p class="px-xl-18 px-md-10 mb-5 lead">
+                Join our Coach community of like-minded individuals. Get your ticket to the 2021 event.
+              </p>
+              <a href="https://codescandy.com/coach/bootstrap-5/pages/signin.html" class="btn btn-primary btn-lg">Get Ticket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--hero section-->
+    <!-- about section -->
+    <div class="py-lg-16 py-8">
+      <div class="container">
+        <!--row-->
+        <div class="row">
+          <div class="offset-xl-3 col-xl-6 col-md-12 col-12">
+            <div class="mb-8 text-center">
+              <!--heading-->
+              <h2 class="mb-3 h1">A Boy Before Coach</h2>
+              <!--para-->
+              <p class="lead">
+                Before Coach became a media sensation for empowering people and
+                sharing 'Inspiration' across the globe, he had his share of
+                obstacles to overcome.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-end">
+          <div class="col-xl-7 col-lg-12 col-md-12 col-12">
+            <div class="row">
+              <div class="col-md-4 mb-2 mb-lg-2">
+                <!--image-->
+                <img src="./profile-img-1.png" alt="porfile" class="img-fluid rounded h-100 w-100 img-hover-zoom--basic">
+              </div>
+              <div class="col-md-8  mb-2 mb-lg-2">
+                <!--image-->
+                <img src="./profile-img-2.png" alt="profile" class="img-fluid rounded h-100 w-100">
+              </div>
+            </div>
+          </div>
+          <!--col-->
+          <div class="col-xl-5 col-lg-12 col-md-12 col-12 mt-3 mt-xl-0">
+            <!--para-->
+            <p class="mb-9">
+              From having a learning disability, which led to being alone and
+              bullied in school, to being sexually abused as a child, to being
+              injured and broke on his sister’s couch, The Coach story is the
+              perfect example of how anybody can overcome the obstacles in their
+              life and achieve greatness.
+            </p>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12 mb-2 mb-lg-2">
+                <!--image-->
+                <img src="./profile-img-3.png" alt="profile" class="img-fluid h-100 rounded w-100">
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 mb-2 mb-lg-2">
+                <!--image-->
+                <img src="./profile-img-4.png" alt="profile" class="img-fluid h-100 rounded w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- form section -->
+    <div class="pb-16 pt-6">
+      <div class="container">
+        <!--row-->
+        <div class="row">
+          <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
+            <div class="mb-5 text-center">
+              <!--content-->
+              <h2 class="h1 mb-3">
+                Make following your passion your full time job
+              </h2>
+              <p>
+                Learn How To Play A Different Game In Business With Your Own
+                Rules
+              </p>
+            </div>
+          </div>
+          <!--col-->
+          <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
+            <!--form-->
+            <form class="row g-2">
+              <div class="mb-3 mb-2 mb-lg-0 col-lg-5 col-md-5 col-12">
+                <!--label-->
+                <label for="name" class="sr-only">name</label>
+                <!--input-->
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="">
+              </div>
+              <div class="mb-3 mb-2 mb-lg-0 col-lg-5 col-md-5 col-12">
+                <!--label-->
+                <label for="email" class="sr-only"></label>
+                <!--input-->
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
+              </div>
+              <div class="col-lg-2 col-md-2 col-12">
+                <!--button-->
+                <button class="btn btn-warning" type="submit">Submit</button>
+              </div>
+              <div class="col-12 mt-2">
+                <small class="text-muted">We will never send you spam.</small>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- course section -->
+    <div class="pt-16 pb-16 bg-primary">
+      <div class="container">
+        <!--row-->
+        <div class="row d-xl-flex align-items-xl-center">
+          <!--col-->
+          <div class="col-lg-6 col-md-12">
+            <div class="text-white pe-xl-10 mb-4 mb-xl-0">
+              <h2 class="display-4 text-white mb-3">
+                Books, Podcast, Courses &amp; More
+              </h2>
+              <!--para-->
+              <p class="lead mb-0">
+                Ready for more? Listen to the latest podcast episode, see when
+                John is headed to your neck of the woods, stock up on business
+                courses, books, gear, and more.
+              </p>
+            </div>
+          </div>
+          <!--col-->
+          <div class="col-lg-6 col-md-6 mb-5">
+            <!--image-->
+            <div class="img-overlay img-zoom">
+              <a href="https://codescandy.com/coach/bootstrap-5/#">
+                <img class="rounded img-fluid w-100" src="./course-img-1.png" alt="podcast">
+              </a>
+              <!--button-->
+              <div class="caption">
+                <a href="https://codescandy.com/coach/bootstrap-5/pages/podcast.html" class="btn btn-outline-white btn-lg">Podcast</a>
+              </div>
+            </div>
+          </div>
+          <!--col-->
+          <div class="col-lg-6 col-md-6 mb-4 mt-xl-n5">
+            <!--image-->
+            <div class="img-overlay img-zoom">
+              <a href="https://codescandy.com/coach/bootstrap-5/#">
+                <img class="rounded img-fluid w-100" src="./course-img-2.png" alt="events">
+              </a>
+              <!--button-->
+              <div class="caption">
+                <a href="https://codescandy.com/coach/bootstrap-5/pages/events.html" class="btn btn-outline-white btn-lg">Events</a>
+              </div>
+            </div>
+          </div>
+          <!--col-->
+          <div class="col-lg-6 col-md-4 mb-8 d-md-none d-lg-block">
+            <!--image-->
+            <div class="img-overlay img-zoom">
+              <a href="https://codescandy.com/coach/bootstrap-5/#">
+                <img class="rounded img-fluid w-100" src="./course-img-3.png" alt="course">
+              </a>
+              <!--button-->
+              <div class="caption">
+                <a href="https://codescandy.com/coach/bootstrap-5/pages/program-list.html" class="btn btn-outline-white btn-lg">Courses</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- program section -->
+    <div class="py-10 pt-lg-16 pb-lg-12">
+      <div class="container">
+        <!--row-->
+        <div class="row">
+          <div class="offset-xl-3 col-xl-6 col-md-12">
+            <div class="text-center mb-8">
+              <!--content-->
+              <h2 class="mb-3 h1">Master Every Area of<br> Your Life</h2>
+              <p class="lead">
+                Extreme Execution will help you leverage who you are in your
+                life and career.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--col-->
+          <div class="col-lg-4 col-md-6 col-12">
+            <!--card-->
+            <div class="card border-0">
+              <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="img-zoom">
+                <img class="rounded img-fluid w-100" src="./thumb-img-1.jpg" alt="thumb-img">
+              </a>
+            </div>
+            <div class="card border-0">
+              <!--card body-->
+              <div class="card-body mt-n16 bg-white me-6 rounded-end p-4">
+                <h3 class="mb-3"> <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="text-inherit">
+                    Life Coaching
+                  </a>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, conse cte turdisse in ornare lectussit amet lacinia nisi.
+                </p>
+                <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="btn-primary-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <!--col-->
+          <div class="col-lg-4 col-md-6 col-12">
+            <!--card-->
+            <div class="card border-0">
+              <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="img-zoom"><img class="rounded img-fluid w-100" src="./thumb-img-2.jpg" alt="thumb-img">
+              </a>
+            </div>
+            <div class="card border-0">
+              <!--card body-->
+              <div class="card-body mt-n16 bg-white me-6 rounded-end p-4">
+                <h3 class="mb-3"> <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="text-inherit">
+                    Relationship
+                  </a>
+                </h3>
+                <p>
+                  Maecenas eu est purus. Morbi luctus turpis justo, sit amet mollis arcu ultricies et.
+                </p>
+                <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="btn-primary-link ">Read more</a>
+              </div>
+            </div>
+          </div>
+          <!--col-->
+          <div class="col-lg-4 d-lg-block d-md-none col-12">
+            <!--card-->
+            <div class="card border-0">
+              <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="img-zoom"><img class="rounded img-fluid w-100" src="./thumb-img-3.jpg" alt="thumb-img">
+              </a>
+            </div>
+            <div class="card border-0">
+              <!--card body-->
+              <div class="card-body mt-n16 bg-white me-6 rounded-end p-4">
+                <h3 class="mb-3"> <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="text-inherit">Leadership
+                  </a>
+                </h3>
+                <p>
+                  Pellentesque at rhoncus metus, in condimentum felis. Donec congue augue placera.
+                </p>
+                <a href="https://codescandy.com/coach/bootstrap-5/pages/program-single.html" class="btn-primary-link">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- gallery section -->
+    <div class="pt-10 pb-0">
+      <div class="container-fluid">
+        <div class="row  g-0 ">
+          <div class="col-md-3 col-12">
+            <!--image-->
+            <img src="./gallery-img-1.jpg" alt="gallery" class="img-fluid border-end border-white h-lg-100">
+          </div>
+  
+          <div class="col-md-3 col-12">
+            <!--image-->
+            <img src="./gallery-img-2.jpg" alt="gallery" class="img-fluid border-bottom border-white h-lg-100">
+  
+            <img src="./gallery-img-3.jpg" alt="gallery" class="img-fluid border-bottom border-white h-lg-100 ">
+          </div>
+  
+          <div class="col-md-3 col-12">
+            <!--image-->
+            <img src="./gallery-img-4.jpg" alt="gallery" class="img-fluid border-bottom border-white h-lg-100 border-start">
+  
+            <img src="./gallery-img-5.jpg" alt="gallery" class="img-fluid border-bottom border-white h-lg-100 border-start">
+          </div>
+          <div class="col-md-3 col-12">
+            <img src="./gallery-img-6.jpg" alt="gallery" class="img-fluid border-start border-white h-lg-100">
+          </div>
+        </div>
+      </div>
+      <!-- workshop form -->
+      <div class="container">
+        <div class="row">
+          <div class="offset-lg-3 col-lg-6 offset-md-1 col-md-10 col-12">
+            <div class="card mt-xl-n22 mt-lg-n19 mt-n12 text-center">
+              <div class="card-body p-6">
+                <div class="mb-4">
+                  <!--content-->
+                  <h2 class="mb-3">Book for Speaking or <br> Workshops</h2>
+                  <p class="mb-0 font-14">
+                    Call me at:<span class="text-dark"> 123-567-7890 </span>or
+                    Book online by fill below form.
+                  </p>
+                </div>
+                <!--form-->
+                <form>
+                  <div class="mb-3">
+                    <!--input-->
+                    <input type="text" class="form-control " placeholder="Name" required="">
+                  </div>
+                  <div class="mb-3">
+                    <!--input-->
+                    <input type="email" class="form-control " placeholder="Email" required="">
+                  </div>
+                  <div class="mb-3">
+                    <!--select-->
+                    <select class="form-select  mb-3">
+                      <option selected="">Select Workshops</option>
+                      <option value="1">Business Coaching</option>
+                      <option value="2">Relationship</option>
+                      <option value="3">Lifecoaching</option>
+                    </select>
+                  </div>
+                  <!--button-->
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary ">
+                      Book Now
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- client logo -->
+    <div class="pt-0 pt-lg-8 pb-5 pb-lg-14 bg-light mt-n15">
+      <div class="pt-18">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="text-center mb-10">
+                <!--heading-->
+                <h3 class="h4">
+                  The best companies know when they're in good company.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-airbnb.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-digitalocean.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-facebook.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-discord.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-intercom.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-twitch.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-paypal.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-netflix.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-xboxone.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-instagram.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-pinterest.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <!--image-->
+              <div class="mb-4 mt-4 text-center">
+                <img src="./logo-stripe.svg" alt="logo">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+  <div class="footer pt-11 pb-3 bg-dark text-body">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-2 col-md-4 col-6">
+                  <div class="mb-4">
+                      <h4 class="mb-4 text-white">About</h4>
+                      <ul class="list-unstyled list-group">
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Meet Coach</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Press</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Social Feed</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link"> Help</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6">
+                  <div class="mb-4">
+                      <h4 class="mb-4 text-white ">Blog</h4>
+                      <ul class="list-unstyled list-group ">
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Business Coaching</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Relationship</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Leadership</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Life Coaching</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Time Management</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6">
+                  <div class="mb-4">
+                      <h4 class="mb-4 text-white ">Resources</h4>
+                      <ul class="list-unstyled list-group ">
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Online Courses</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link"> Books Meditation</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link"> Podcast</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Albums</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Download App</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6">
+                  <div class="mb-4">
+                      <h4 class="mb-4 text-white ">Follow Me</h4>
+                      <ul class="list-unstyled list-group">
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Instagram</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link"> Facebook</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link"> LinkedIn</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">YouTube</a></li>
+                          <li class="list-group-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="list-group-item-link">Twitter</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-8 col-12">
+                  <div class="mb-4">
+                      <h4 class="mb-4 text-white">Subscribe to our newsletter</h4>
+                      <div>
+                          <p>Subscribe to get notified daily new motivational &amp; inspiration tips.</p>
+                          <form>
+                              <div class="mb-3">
+                                  <input type="email" class="form-control border-white" placeholder="Email Address" required="">
+                              </div>
+                              <button type="submit" class="btn btn-primary">Subscribe</button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                  <div class="mt-8">
+                      <ul class="list-inline">
+                          <li class="list-inline-item">Copyright © 2020<span id="copyright"> -
+                              <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>2023
+                          </span>, Inc.</li>
+                          <li class="list-inline-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="text-reset"> Privacy Policy </a></li>
+                          <li class="list-inline-item"><a href="https://codescandy.com/coach/bootstrap-5/#" class="text-reset"> Terms</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Optional JavaScript -->
+  
+  
+    <!-- Libs JS -->
+  <script src="./jquery.min.js.descarga"></script>
+  <script src="./bootstrap.bundle.min.js.descarga"></script>
+  <script src="./jquery.slimscroll.min.js.descarga"></script>
+  
+  
+  
+  <!-- Theme JS -->
+  <script src="./theme.min.js.descarga"></script>
+  
+  
+  
+  
+  </body>
+</html>
