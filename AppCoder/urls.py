@@ -3,8 +3,8 @@ from AppCoder.views import inicio, cursos, entregables, estudiantes, profesores
 
 urlpatterns = [
     path('inicio/', inicio),
-    path('cursos/', cursos),
-    path('entregables/', entregables),
-    path('profesores/', profesores),
-    path('estudiantes/', estudiantes),
+    path('cursos/', cursos, name="Cursos"),
+    path('entregables/', entregables, name="Entregables"),
+    path('profesores/', profesores, name="Profesores"),
+    path('estudiantes/', estudiantes, name="Estudiantes"),
 ]

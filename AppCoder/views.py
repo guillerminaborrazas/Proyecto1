@@ -13,7 +13,7 @@ def profesores(request):
     return(render(request, "AppCoder/profesores.html"))
 
 def estudiantes(request):
-    return("Vista estudiante")
+    return(render(request, "AppCoder/estudiantes.html"))
 
 def entregables(request):
-    return("Vista entregables")
+    return(render(request, "AppCoder/entregables.html"))
