@@ -1,0 +1,23 @@
+<div>
+    {% extends "AppCoder/estudiantes.html" %}
+    {% load static %}
+        {% block getEstudiante %}
+            <p>Consultar Estudiante</p>
+            <form action="/AppCoder/buscarEstudiante/" method="GET">
+                <input placeholder="Nombre" type="text" name="nombre" id="nombre">
+
+                <input type="submit" value="Enviar">
+            </form>
+            <div>
+            {% if estudiantes %}
+            <ul>
+                {% for estudiante in estudiante %}
+                <li>{{ estudiante.nombre }}</li>
+                <li>{{ estudiante.apellido }}</li>
+                <li>{{ estudiante.email }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </div>
+        {% endblock %}
+</div>
