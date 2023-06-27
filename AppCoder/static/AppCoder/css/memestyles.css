@@ -8,3 +8,27 @@
 .componenteEntregable{
     background-color: rosybrown;
 }
+
+#tituloTablaEstudiantes{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+#tituloTablaEstudiantes th{
+    padding: 10px;
+}
+
+#tableInfoEstudiantes tr th{
+    padding-right: 120px;
+}
+
+.btnEliminar a{
+    border-radius: 15px !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.btnEditar a{
+    border-radius: 15px !important;
+    color: white !important;
+    text-decoration: none !important;
+}

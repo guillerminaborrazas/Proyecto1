@@ -3,22 +3,22 @@
     {% load static %}
         {% block setEstudiante %}
             <p>Crear Estudiante</p>
-            <!--form action="/AppCoder/setEstudiante/" method="POST">{% csrf_token %}
+            <form action="/AppCoder/setEstudiante/" method="POST">{% csrf_token %}
                 <input placeholder="Nombre" type="text" name="nombre" required>
                 <input placeholder="Apellido" type="text" name="apellido" required>
                 <input placeholder="Email" type="email" name="email" required>
 
-                <input type="submit" value="Enviar">
-            </form-->
+                <input class="btn btn-primary" type="submit" value="Enviar">
+            </form>
             {% if miFormulario.errors %}
             <p style="color: red">Estan mal los datos, revisar</p>
             {% endif %}
-            <form action="" method="POST">{% csrf_token %}
+        <!--form action="" method="POST">{% csrf_token %}
                 <table>
                     {{ miFormulario.as_table }}
                 </table>
 
                 <input type="submit" value="Enviar">
-            </form>
+            </form-->
         {% endblock %}
 </div>
